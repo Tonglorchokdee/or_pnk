@@ -1,0 +1,9 @@
+{
+    "title": "ชื่อ",
+    "layout": {
+        "logout": "ออกจากระบบ"
+    },
+    "rules":{
+        "required": "field is required."
+    }
+}

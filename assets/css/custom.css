@@ -1,0 +1,56 @@
+:root{
+    --c-primary: #0C79D8;
+    --c-secondary: #001730;
+
+    --c-white:#fff;
+}
+
+html {
+    overflow: hidden;
+}
+
+body{
+    font-size: 16px;
+}
+
+.v-app-bar,
+.v-toolbar__content {
+    height: 70px !important;
+}
+
+.v-main {
+    display: flex;
+    flex: 1 0 auto;
+    max-width: 100%;
+    transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: auto;
+}
+
+.wrapper-content {
+    margin: 4rem 0;
+}
+
+.btn-tab {
+    border: 1px solid #ddd;
+    border-radius: 15px 15px 0 0;
+    font-size: 1.1rem !important;
+    background-color: #ebebeb;
+    margin-right: 1rem !important;
+}
+
+.tab-active{
+    color:  var(--c-white) !important;
+    background-color: var(--c-primary) !important;
+    border: 0 !important;
+}
+
+.tab-active svg path{
+    fill: var(--c-white);
+}
+
+
+.card-main {
+    border-top: 3px solid  var(--c-primary) !important;
+    border-radius: 0 0 10px 10px !important; 
+}
+
